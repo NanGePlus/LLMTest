@@ -1,3 +1,8 @@
+# 0、本项目相关视频链接          
+提供一种LLM集成解决方案，一份代码支持快速同时支持gpt大模型、国产大模型(通义千问、文心一言、百度千帆、讯飞星火等)、本地开源大模型(Ollama)             
+https://www.bilibili.com/video/BV12PCmYZEDt/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                
+https://youtu.be/CgZsdK43tcY              
+
 # 1、前期准备工作
 ## 1.1 LangChain简介
 LangChain是一个用于开发由大型语言模型(LLM)驱动的应用程序的框架            

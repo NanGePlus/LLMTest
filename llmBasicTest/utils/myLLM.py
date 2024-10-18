@@ -10,10 +10,10 @@ OPENAI_CHAT_MODEL = "gpt-4o-mini"
 ONEAPI_API_BASE = "http://139.224.72.218:3000/v1"
 ONEAPI_CHAT_API_KEY = "sk-iEokjc8sQa9yvf8c655eCa8b0b834aB2Ab67213e639259Df"
 ONEAPI_CHAT_MODEL = "qwen-max"
-# 本地大模型相关配置(Ollama方案 llama3.1:latest为例) 根据自己的实际情况进行调整
-OLLAMA_API_BASE = "http://192.168.2.9:11434/v1"
-OLLAMA_CHAT_API_KEY = ""
-OLLAMA_CHAT_MODEL = "qwen2.5:latest"
+# 本地大模型相关配置(Ollama方案 qwen2.5:7b为例) 根据自己的实际情况进行调整
+OLLAMA_API_BASE = "http://localhost:11434/v1"
+OLLAMA_CHAT_API_KEY = "ollama"
+OLLAMA_CHAT_MODEL = "qwen2.5:7b"
 
 # 定函数 模型初始化
 def my_llm(llmType):

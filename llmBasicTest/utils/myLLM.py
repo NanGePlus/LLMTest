@@ -1,3 +1,4 @@
+import os
 from langchain_openai import ChatOpenAI
 
 # 模型全局参数配置  根据自己的实际情况进行调整
